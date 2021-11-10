@@ -1,0 +1,21 @@
+button:focus, div:focus, input:focus {
+  outline: none; }
+.container{
+  max-width: 1170px;
+}
+body {
+  font-family: "Source Sans Pro", sans-serif; }
+
+
+@import 'main';
+@import 'features';
+@import 'description-main';
+@import 'description-sec';
+@import 'feedback';
+@import 'call-now';
+@import 'pricing-page';
+@import 'contacts';
+@import 'footer';
+@import 'media';
+
+

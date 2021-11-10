@@ -1,0 +1,66 @@
+.footer {
+  padding: 27px;
+  background-color: #15141a; }
+
+.social-media {
+  display: flex;
+  justify-content: center; }
+.social-media a {
+  background-color: transparent; }
+.social-media-item {
+  padding-left: 25px;
+  padding-right: 25px;
+  width: 30px;
+  height: 40px; }
+.social-media-list {
+  background-color: transparent; }
+
+.copyright {
+  padding-top: 30px;
+  color: #444348;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase; }
+
+.social-item-1 {
+  background-color: transparent;
+  background-image: url(../img/footer/item-1.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+.social-item-1:hover {
+  background-image: url(../img/footer/item-1a.png); }
+
+.social-item-2 {
+  background-color: transparent;
+  background-image: url(../img/footer/item-2.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+.social-item-2:hover {
+  background-image: url(../img/footer/item-2a.png); }
+
+.social-item-3 {
+  background-color: transparent;
+  background-image: url(../img/footer/item-3.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+.social-item-3:hover {
+  background-image: url(../img/footer/TWITTER_icon-icons.com_62686.png); }
+
+.social-item-4 {
+  background-color: transparent;
+  background-image: url(../img/footer/item-4.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+.social-item-4:hover {
+  background-image: url(../img/footer/item-4a.png); }
+
+.social-item-5 {
+  background-color: transparent;
+  background-image: url(../img/footer/item-5.png);
+  background-position: center;
+  background-repeat: no-repeat; }
+.social-item-5:hover {
+  background-image: url(../img/footer/item-5a.png); }

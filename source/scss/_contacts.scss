@@ -1,0 +1,84 @@
+.contacts {
+  padding-top: 60px;
+  background-color: #ededed; }
+.contacts-info {
+  padding-top: 60px;
+  display: flex;
+  justify-content: space-between; }
+.contacts-info-item {
+  width: 33%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400;
+  white-space: nowrap; }
+.contacts-info-item img {
+  max-height: 32px;
+  max-width: 32px;
+  margin-bottom: 30px; }
+
+.form-wrapping {
+  display: flex;
+  justify-content: center; }
+
+.contacts-form {
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  top: 70px;
+  height: 350px;
+  background-color: #15141a; }
+.contacts-form-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: center; }
+.contacts-form-main form {
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column; }
+
+.contacts-form-head input {
+  padding-left: 18px;
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  background-color: #15141a; }
+.contacts-form-head input:first-child {
+  margin-top: 0; }
+.contacts-form-message {
+  margin-left: 20px; }
+.contacts-form-message textarea {
+  width: 300px;
+  height: 190px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 5px;
+  background-color: #15141a;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  resize: none; }
+.contacts-form-message button {
+  padding: 0;
+  margin-top: 20px;
+  margin-left: 140px;
+  width: 160px;
+  height: 50px;
+  background-color: #008ed6;
+  border: 0;
+  border-radius: 5px;
+  text-align: center;
+  vertical-align: middle; }
+.contacts-form-message button:hover {
+  background-color: #0aadff; }

@@ -1,0 +1,24 @@
+.description-sec {
+  padding-top: 33px;
+  background-color: #f2f2f2; }
+
+.description-sec-wrapping {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+.description-sec__text {
+  display: inline-block;
+  padding-top: 100px;
+  padding-bottom: 150px;
+  max-width: 45%; }
+
+.description-sec__device {
+  display: flex;
+  justify-content: center;
+  max-width: 55%;
+  max-height: 500px; }
+.description-sec__device img {
+  max-height: 100%;
+  max-width: 100%; }

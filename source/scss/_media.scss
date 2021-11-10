@@ -1,0 +1,153 @@
+
+@media (max-width: 550px) {
+  .contacts-form-main {
+    flex-direction: column; }
+
+  .contacts-form-head {
+    align-items: center; }
+  .contacts-form-head input {
+    width: 80%; }
+
+  div.pricing-page-item {
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto; }
+
+  .main-content-text-buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; }
+
+  .call-now-buttons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row; } }
+@media (max-width: 770px) {
+  .sm-styling {
+    display: none; }
+
+  .menu-mobile-link {
+    left: 80%;
+    top: 30px; }
+
+  .contacts-info {
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
+  .contacts-info-item {
+    padding-top: 50px; }
+
+  .contacts-form {
+    position: static;
+    top: 20px;
+    width: 100%;
+    height: 600px; }
+  .contacts-form-main {
+    flex-direction: column; }
+  .contacts-form-head {
+    align-items: center; }
+  .contacts-form-head input {
+    width: 80%; }
+  .contacts-form-message {
+    margin-left: 0px;
+    align-items: center; }
+  .contacts-form-message textarea {
+    width: 80%; }
+  .contacts-form-message button {
+    margin-left: 0; } }
+@media (max-width: 990px) {
+  .hidden-mobile {
+    display: none; }
+
+  .main-content {
+    margin-top: 70px; }
+  .main-content-text {
+    text-align: center;
+    max-width: 100%; }
+  .main-content-text-buttons {
+    padding-bottom: 30px; }
+
+  .features {
+    padding-bottom: 25px; }
+  .features-item {
+    padding-bottom: 20px; }
+  .features-item__text {
+    max-width: 50%; }
+
+  .description-text {
+    text-align: center;
+    padding-top: 0;
+    max-width: 100%;
+    padding-bottom: 30px; }
+  .description-text__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .description-text__list-item {
+    padding-top: 10px; }
+
+  .description-sec__text {
+    max-width: 100%;
+    text-align: center; }
+
+  .feedback-slider {
+    width: 100%; }
+  .feedback-slider-item {
+    padding-right: 20px;
+    padding-left: 20px; }
+
+  .cta-wrapping {
+    flex-direction: column; }
+
+  .call-to-action-text {
+    text-align: center; }
+  .call-to-action-buttons {
+    padding-top: 20px; }
+
+  .pricing-page-items-wrapping {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; }
+
+  .pricing-page-item {
+    max-width: 55%;
+    margin-top: 20px; }
+
+  .contacts-form {
+    top: 0;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    width: 100%; }
+
+  form input {
+    width: 170px; } }
+
+@media (min-width: 990px) and (max-width: 1200px) {
+  .menu-mobile-link {
+    top: 80px;
+
+  }
+  .cta-wrapping {
+    flex-direction: column; }
+
+  .call-now-text {
+    text-align: center; }
+  .call-now-buttons {
+    padding-top: 20px; }
+
+  .pricing-page-items-wrapping {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center; }
+
+  .pricing-page-item {
+    margin-left: 2%;
+    max-width: 40%;
+    margin-top: 20px; }
+
+  .contacts-form {
+    top: 0;
+    margin-top: 50px;
+    margin-bottom: 20px; } }

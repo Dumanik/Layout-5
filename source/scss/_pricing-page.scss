@@ -1,0 +1,82 @@
+.pricing-page {
+  padding-top: 60px;
+  padding-bottom: 60px; }
+.pricing-page-items-wrapping {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between; }
+
+.pricing-heading {
+  color: #1a1a1a; }
+
+.pricing-page-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 24%;
+  border: 1px solid #e0e0e0; }
+.pricing-page-item__heading {
+  padding: 30px 109px 25px 109px;
+  color: #1a1a1a;
+  font-size: 24px;
+  font-weight: 700;
+  text-transform: uppercase; }
+.pricing-page-item__price {
+  padding: 38px 85px 27px 86px;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0; }
+.pricing-page-item__price-item-main {
+  margin-right: 19px;
+  text-align: center;
+  color: #1a1a1a;
+  font-size: 60px;
+  font-weight: 700; }
+.pricing-page-item__price-item-main::before {
+  content: "$";
+  font-size: 35px;
+  vertical-align: top;
+  position: relative;
+  top: 10px; }
+.pricing-page-item__price-item-second {
+  text-align: center;
+  font-weight: 400;
+  color: #999999;
+  margin-top: -10px; }
+.pricing-page-item__text {
+  padding: 52px 20px 44px 20px;
+  text-align: center;
+  color: #999999;
+  font-size: 18px;
+  font-weight: 400; }
+.pricing-page-item__text span {
+  color: #008ed6; }
+.pricing-page-item__btn {
+  padding-bottom: 30px; }
+.pricing-page-item__button {
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  text-transform: uppercase;
+  color: #008ed6;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 20px 42px;
+  background-color: transparent;
+  cursor: pointer; }
+
+.styling {
+  width: 100px;
+  height: 24px; }
+
+.prime-heading {
+  color: #008ed6; }
+.prime-price {
+  background-color: #008ed6; }
+.prime-numbers {
+  color: #fafafa; }
+.prime-button {
+  border: 0;
+  color: #fafafa;
+  background-color: #008ed6; }
+.prime-button:hover {
+  background-color: #0aadff; }
